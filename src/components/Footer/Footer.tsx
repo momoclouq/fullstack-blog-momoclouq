@@ -3,8 +3,6 @@ import styled from 'styled-components';
 import BaseLink from "../BaseLink/BaseLink";
 
 const FooterWrapper = styled.footer`
-    position: absolute;
-    bottom: 0;
     width: 100%;
     padding: 0.5em;
 `;
@@ -18,7 +16,7 @@ const ContactMeLink = styled(BaseLink)`
 const Footer = () => {
     return (
         <FooterWrapper>
-            <div style={{ textAlign: 'center', marginBottom: '0.5em' }}>Minh's personal blog</div>
+            <div style={{ textAlign: 'center', marginBottom: '0.5em' }}>---<i>Minh's personal blog</i>---</div>
             <div style={{ textAlign: 'center', fontSize: '0.8em' }}>Im looking for a job, a project. <ContactMeLink to="/contact-me">Contact me 🐒</ContactMeLink></div>
         </FooterWrapper>
     )

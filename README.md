@@ -7,6 +7,7 @@
 - MDX
 - typescript
 - react-router
+- styled-components
 
 ### Note on how to install a package
 Because the current `create-react-app` version (5.x) is not compatible with `@mdx-js/loader`, I must use craco as the [documentation](https://mdxjs.com/docs/getting-started/#create-react-app-cra) suggest. But it currently does not support create-react-app ver 5.x at the moment -> must install with `--legacy-peer-deps` flag

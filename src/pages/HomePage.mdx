@@ -1,3 +1,28 @@
-# This is the blog's homepage
+import HomePageCard from '../components/Card/HomePageCard';
 
-This is **markdown** with <span style={{ color: "red" }}>JSX</span>
+<section style={{
+    padding: '0.8em',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    border: '2px solid black',
+    borderRadius: '1em',
+    marginBottom: '1em',
+    boxShadow: '0 2px 1px 1px #bfbeba'
+}}>
+### What is this site about?
+- A personal blog about everything mostly technologies
+- A showcase of my projects 🤑
+- Maybe a little bit about `Macbook`...
+</section>
+
+<section>
+    <HomePageCard
+        title="The creation of this blog"
+        url="/blog/1"
+        description="The story of how this blog came to life and how I created it ✨"
+        time="04/10/2022"
+        imgUrl="https://drive.google.com/uc?export=view&id=1riNmAUUVkTO6HXc_lim0smErtnKsCYNu"
+        imgAlt="blog website UI image"
+    />
+</section>
