@@ -1,7 +1,7 @@
 {
   "name": "blog-md",
   "version": "0.1.0",
-  "homepage": "https://momoclouq.github.io/fullstack-blog-momoclouq",
+  "homepage": "https://momoclouq.github.io/fullstack-blog-momoclouq/",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.4.5",
