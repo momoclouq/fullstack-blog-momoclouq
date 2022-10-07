@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/fullstack-blog-momoclouq/static/css/main.44598726.css",
-    "main.js": "/fullstack-blog-momoclouq/static/js/main.416ecb8a.js",
+    "main.js": "/fullstack-blog-momoclouq/static/js/main.ead35afd.js",
     "index.html": "/fullstack-blog-momoclouq/index.html",
     "main.44598726.css.map": "/fullstack-blog-momoclouq/static/css/main.44598726.css.map",
-    "main.416ecb8a.js.map": "/fullstack-blog-momoclouq/static/js/main.416ecb8a.js.map"
+    "main.ead35afd.js.map": "/fullstack-blog-momoclouq/static/js/main.ead35afd.js.map"
   },
   "entrypoints": [
     "static/css/main.44598726.css",
-    "static/js/main.416ecb8a.js"
+    "static/js/main.ead35afd.js"
   ]
 }
