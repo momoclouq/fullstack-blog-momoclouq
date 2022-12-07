@@ -5,13 +5,17 @@
 
 code {
     font-family:'Times New Roman', Times, serif;
-    background: #403b39;
+    background: #a58be0;
     padding: 0.2em;
-    border-radius: 0.2em;
+    border-radius: 0.1px;
     color: white;
 }
 
 body {
     padding: 0;
     margin: 0;
+}
+
+a:visited {
+    color: inherit;
 }

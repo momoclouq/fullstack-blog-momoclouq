@@ -1,9 +1,11 @@
+import ImgHolder from '../../components/Image/ImgHolder';
+
 # My personal blog site!!!
 
-<img 
-    style={{ maxWidth: '300px' }} 
+<ImgHolder 
     alt='anime meme 1'
-    src="https://www.meme-arsenal.com/memes/d3798e8fb6a9357fd1da926ea07f2528.jpg"
+    link="https://www.meme-arsenal.com/memes/d3798e8fb6a9357fd1da926ea07f2528.jpg"
+    defaultMaxHeight="350px"
 />
 
 ## Introduction
@@ -36,10 +38,10 @@ It integrates JSX and markdown together.
 Following the guides in the document [getting started](https://mdxjs.com/docs/getting-started/#create-react-app-cra), you will have to install another package [craco](https://github.com/dilanx/craco/blob/master/packages/craco/README.md) 
 to get the repo working correctly with CRA 5 and above for the time being. And you can start creating and using `.mdx` files like a normal components in React!
 
-<img 
-    style={{ maxWidth: '200px' }} 
+<ImgHolder  
     alt='anime meme 2'
-    src="https://www.meme-arsenal.com/memes/3d25a1e3176a304be006842c3a06e261.jpg"
+    link="https://www.meme-arsenal.com/memes/3d25a1e3176a304be006842c3a06e261.jpg"
+    defaultMaxHeight="300px"
 />
 
 If you need help with a cheatsheet in Markdown: [markdown cheatsheet](https://commonmark.org/help/)  
@@ -58,10 +60,10 @@ The structure of the repo is also important (at least to me 😥). You can check
 
 > Now I can start writing blog posts!!!
 
-<img 
-    style={{ maxWidth: '400px' }} 
+<ImgHolder 
     alt='anime meme 3 chitanda'
-    src="http://1.bp.blogspot.com/-u6Tnl422BnM/Vh95Hho1dYI/AAAAAAAAAb0/HeEARXOxWIA/s1600/Eru-Chitanda-hyouka-35028943-1280-720.png"
+    link="http://1.bp.blogspot.com/-u6Tnl422BnM/Vh95Hho1dYI/AAAAAAAAAb0/HeEARXOxWIA/s1600/Eru-Chitanda-hyouka-35028943-1280-720.png"
+    defaultMaxHeight="200px"
 />
 ---
 ### What are the tips about using MDX?
@@ -73,6 +75,10 @@ The structure of the repo is also important (at least to me 😥). You can check
 ## Deploy on Github pages
 I said it once and I will say it again: I choose Github pages because it is free and easy to use.  
 How? [Deploy react app to github pages](https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/), yes, I have to change to using a hashrouter for react-router for it to work.  
+
+## Update - 04/12/2022
+I saw that the images were loading after the text content of the website has been loaded, which is uncool. So I created a img placeholder and a fallback image in case the images die.  
+The links are also updated, removing the default color styling of visited link
 
 ## Thoughts
 The process of creating a personal blog website is now coming to an end as the next part of this project is to **create posts**. If there are anything related to tech updated 
