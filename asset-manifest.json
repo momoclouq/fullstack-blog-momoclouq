@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/fullstack-blog-momoclouq/static/css/main.44598726.css",
-    "main.js": "/fullstack-blog-momoclouq/static/js/main.bc5398cf.js",
+    "main.css": "/fullstack-blog-momoclouq/static/css/main.89a711f7.css",
+    "main.js": "/fullstack-blog-momoclouq/static/js/main.b77434b3.js",
+    "static/media/missing_image.webp": "/fullstack-blog-momoclouq/static/media/missing_image.a6a9eb0b89abbdcfb0e7.webp",
     "index.html": "/fullstack-blog-momoclouq/index.html",
-    "main.44598726.css.map": "/fullstack-blog-momoclouq/static/css/main.44598726.css.map",
-    "main.bc5398cf.js.map": "/fullstack-blog-momoclouq/static/js/main.bc5398cf.js.map"
+    "main.89a711f7.css.map": "/fullstack-blog-momoclouq/static/css/main.89a711f7.css.map",
+    "main.b77434b3.js.map": "/fullstack-blog-momoclouq/static/js/main.b77434b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.44598726.css",
-    "static/js/main.bc5398cf.js"
+    "static/css/main.89a711f7.css",
+    "static/js/main.b77434b3.js"
   ]
 }
